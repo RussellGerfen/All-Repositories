@@ -4,7 +4,7 @@ REM ~~ | Open Notepad and write something:
 DELAY 1000
 GUI r
 DELAY 100
-STRING notepad
+STRING notepad.txt
 ENTER
 DELAY 1000 
 STRING You have been hacked noob 
